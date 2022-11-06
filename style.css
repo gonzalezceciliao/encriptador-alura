@@ -1,0 +1,73 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body {
+    background-color: rgb(193, 204, 216);
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("images/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: #4646e2;
+    color:#fafbfc;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(255, 255, 255, 0.123);
+    margin: auto;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: #e3e3f0;
+    color:#1e4266;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(255, 255, 255, 0.123);
+    margin: auto;
+}
+
+.informacion {
+    font-size: 15px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
